@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "sql_outputs_reconciled": 9,
+  "users": 3000,
+  "events": 54320,
+  "orders": 6108,
+  "checks": [
+    "Primary/foreign keys",
+    "Dates and positive order amounts",
+    "Purchase-event/order bijection",
+    "Ordered session funnel",
+    "Independent pandas reconciliation of all 9 SQL results",
+    "Exact-day retention and fully observed repeat buyers"
+  ]
+}
